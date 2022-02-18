@@ -1,0 +1,17 @@
+dict = {
+    "Ravi":"Eligible for doing Career Counceling.",
+    "Suraj":"He can go for Uttar Pradesh police", 
+    "Mayank":"Preparing for Railway."
+}
+
+print(dict.keys())
+print("Please enter the name to get the info or type exit to exit the programme.")
+
+while True:
+
+    userinput = input()
+
+    if userinput == "exit":
+        break
+
+    print(dict[userinput])
